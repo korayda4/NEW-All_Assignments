@@ -8,7 +8,7 @@ create store, basket, categories, product.
 
 Information:
 It is a store system where you can buy products from the market, have categories listed, and create products with personnel entry.
-----------------------------------------------------------------------------------------------------------------------------------
+
 
 Assignment 2
 

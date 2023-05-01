@@ -12,7 +12,7 @@ It is a store system where you can buy products from the market, have categories
 
 Assignment 2
 
-Simple accounting system:
+-->Simple accounting system:
 Menus:
 Enter income, enter expense, show balance sheet, exit
 
@@ -21,7 +21,7 @@ A system where you can enter your income and expenses, see their VAT and non-VAT
 
 Assignment 3
 
-Uno game:
+-->Uno game:
 
 menus:
 not available

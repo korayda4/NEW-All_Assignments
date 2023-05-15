@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etkinlik Zamanı!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .anagövde a {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 15px;
+            background-color: #ff000000;
+            border: 0px solid #00000000;
+            border-radius: 2px;
+            text-decoration: none;
+            color: #333;
+            font-weight: lighter;
+            position: relative;
+        }
+
+        .anagövde a::after {
+            content: "";
+            display: block;
+            height: 0.1px;
+            width: 100%;
+            background-color: #ffffff;
+            position: absolute;
+            bottom: -225;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s ease;
+            
+         }
+
+        .anagövde a:hover::after {
+            opacity: 1;
+        }
+        
+        .anagövde {
+            position: relative;
+        }
+
+        .anagövde img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .butongrup {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .butongrup a {
+            font-family: 'Gill Sans', sans-serif;
+            display: inline-block;
+            margin: 0px;
+            padding: 10px 10px;
+            background-color: #00000000;
+            border: 0;
+            border-radius: 0px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: lighter;
+            border-radius: 0px;
+            transition: transform 0.1s ease;
+        }
+
+        .butongrup a:hover {
+            transform: scale(1.1);
+        }
+
+        .bilgiler {
+            text-align: center;
+            margin-left: 0px;
+            margin-top: 50px;
+            padding: 0 0px;
+            background-color: #19191964;
+            border-radius: 25px;
+            box-shadow: 0 0 25px rgba(52, 52, 52, 0.841);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        h5 {
+            margin-top: 610px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="anagövde">
+        <img src="assets/image/neom-EbIvcXzgU4s-unsplash.webp" alt="Kamp Resmi">
+        
+        <div class="butongrup">
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Hakkında</a>
+            <a href="dagtırmanısı.html">Dağ Tırmanışı</a>
+            <a href="mısırgezisi.html">Mısır Gezisi</a>
+            <a href="kamp.html">Kamp Etkinliği</a>
+            <a href="iletisim.html">İletişim</a>
+            
+            
+            <div class ="bilgiler">
+                <h1 >ETKİNLİK ZAMANI!</h1>
+                <h6 >Çok ucuza, kaliteli ve güvenilir turlar burada!<br>İstediğiniz zaman iptal edebildiğiniz her şey dahil turlarımız<br>%10 indirimle birlikte 4499TL'den başlayan fiyatlarla!</h6>
+            </div>  
+            <h5 >Tüm hakları ebediyen saklıdır kardeş</h5>
+        </div>
+    </div>
+</body>
+</html>
